@@ -1,19 +1,8 @@
 <?php
 session_start();
 include_once("conexao.php");
-// A sessão precisa ser iniciada em cada página diferente
-if (!isset($_SESSION)) session_start();
+include_once("testar_nivel.php");
 
-$nivel_necessario = 1;
-$teste = $_SESSION['UsuarioID'];
-
-// Verifica se não há a variável da sessão que identifica o usuário
-if (!isset($_SESSION['UsuarioID']) or ($_SESSION['UsuarioNivel'] < $nivel_necessario)) {
-
-  // Redireciona o usuario para sua lista de clientes
-  header("Location: clientes_usuario.php?id=$teste");
-  exit();
-}
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">

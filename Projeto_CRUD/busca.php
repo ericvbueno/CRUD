@@ -1,19 +1,8 @@
 <?php
 session_start();
 include_once("conexao.php");
+include_once("testar_vazio.php");
 
-// A sessão precisa ser iniciada em cada página diferente
-if (!isset($_SESSION)) session_start();
-
-// Verifica se não há a variável da sessão que identifica o usuário
-if (!isset($_SESSION['UsuarioID']) or ($_SESSION['UsuarioNivel'] == "")) {
-
-  session_destroy(); // Destrói a sessão limpando todos os valores salvos
-
-  // Redireciona o usuario
-  header("Location: login.php");
-  exit();
-}
 $busca = strtolower($_POST['busca']);
 $userID = $_SESSION['UsuarioID'];
 $campo =  ($_POST['campo'] == "usuario.nome") ? $_POST['campo'] : "cadastro." . $_POST['campo'];
