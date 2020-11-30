@@ -15,27 +15,19 @@ echo "Nivel: $nivel <br>";
 
 $result_usuario = "UPDATE usuario SET nivel='$nivel' WHERE id = '$id'";
 
-echo $result_usuario;
-
 $resultado_usuario = mysqli_query($conn, $result_usuario);
 
-echo mysqli_error($conn);
-
-$_SESSION['UsuarioNivel'] = $nivel;
 $testenivel = $_SESSION['UsuarioNivel'];
+$testeID = $_SESSION['UsuarioID'];
 
-if($testenivel == 1){
-    header('Location: /Projeto_CRUD/usuarios.php');
-    exit();
-}
-if($testenivel == 0){
-    session_destroy(); // Destrói a sessão limpando todos os valores salvos
-    
+if($id == $testeID && $testenivel == 1) {
+    session_destroy();
     header('Location: /Projeto_CRUD/login.php');
     exit();
 }
 
-/*echo json_encode($result_usuario);*/
+header('Location: /Projeto_CRUD/usuarios.php');
+
 ?>
 
 <!DOCTYPE html>

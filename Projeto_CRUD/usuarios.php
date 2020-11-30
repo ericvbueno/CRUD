@@ -9,6 +9,7 @@ $nivel_necessario = 1;
 // Verifica se não há a variável da sessão que identifica o usuário
 if (!isset($_SESSION['UsuarioID']) or ($_SESSION['UsuarioNivel'] < $nivel_necessario)) {
 
+  echo json_encode("CHEGOU AQUI");
   // Redireciona o usuario para sua lista de clientes
   header("Location: login.php");
   exit();
