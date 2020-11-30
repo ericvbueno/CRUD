@@ -3,6 +3,7 @@ session_start();
 include_once("conexao.php");
 include_once("testar_nivel.php");
 
+$id = $_SESSION['UsuarioID'];
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -74,7 +75,7 @@ include_once("testar_nivel.php");
       $result_cadastro = "SELECT cadastro.*, usuario.nome as usuario_nome 
       FROM cadastro
       JOIN usuario
-      ON cadastro.usuario_id = usuario.id";
+      ON cadastro.usuario_id = usuario.id ORDER BY cadastro.id";
       $resultado_cadastro = mysqli_query($conn, $result_cadastro);
       while ($row_cadastro = mysqli_fetch_assoc($resultado_cadastro)) {
 
@@ -113,7 +114,8 @@ include_once("testar_nivel.php");
         </tbody>
       <?php } ?>
     </table>
-    <a type="submit" href="usuarios.php" class='btn btn-primary' target="_self">Exibir os usuarios do Sistema</a></p>
+    <a type="submit" href="usuarios.php" class='btn btn-primary' target="_self">Exibir os usuarios do Sistema</a>
+    <a type='submit' id="cad_cliente" name="cad_cliente" value="<?php echo $id;?>"onclick='funcao1("cadastro",<?php echo $id;?>)'  class='btn btn-primary'>Cadastrar Cliente</a>
   </div>
 </body>
 
