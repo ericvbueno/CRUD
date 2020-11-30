@@ -32,7 +32,12 @@ $row_usuario = mysqli_fetch_assoc($resultado_login);
         <input type="radio" name="permissao" id="permissao" value="1" <?php echo $row_usuario['nivel'] == 1 ? 'checked' : '' ?>>Administrador
         <input type="radio" name="permissao" id="permissao" value="0" <?php echo $row_usuario['nivel'] != 1 ? 'checked' : '' ?>>Usuario</p>
 
-      <button type="submit" class="btn btn-success send-btn">Salvar</button>
+      <button type="submit" class="btn btn-success send-btn">
+      <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+      </button>
+      <button type="reset" onclick="funcao1('cancelar_permissao')" class="btn btn-danger">
+        <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+ </button>
     </form>
   </div>
 </body>

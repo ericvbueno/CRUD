@@ -67,6 +67,10 @@ function funcao1(acao,id = 0){
             console.log(id_cadastro);
              window.location.href=`clientes_usuario.php?id=${id_cadastro}`;
           }
+          if(botao == 'cancelar_permissao'){
+            alert("Cancelado !");
+            document.location.href = "/Projeto_CRUD/usuarios.php";
+          }
         }
 
 $("#cadastroform").submit(function(e) {
