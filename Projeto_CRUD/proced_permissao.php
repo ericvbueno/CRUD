@@ -19,7 +19,7 @@ $resultado_usuario = mysqli_query($conn, $result_usuario);
 
 $testenivel = $_SESSION['UsuarioNivel'];
 $testeID = $_SESSION['UsuarioID'];
-
+// Testa se o Id que está sendo modificado é igual ao da pessoa que está logada
 if($id == $testeID && $testenivel == 1) {
     session_destroy();
     header('Location: /Projeto_CRUD/login.php');
