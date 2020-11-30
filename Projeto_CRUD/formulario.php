@@ -61,7 +61,7 @@ $row_usuario = mysqli_fetch_assoc($resultado_usuario);
 
 
       <button type="submit" class="btn btn-success send-btn">Enviar</button>
-      <p><a href="Lista.php" target="_blank">Exibir lista de Clientes</a></p>
+      <p><a href="Lista.php" target="_self">Exibir lista de Clientes</a></p>
     </form>
   </div>
   <script src="validacao.js"></script>
