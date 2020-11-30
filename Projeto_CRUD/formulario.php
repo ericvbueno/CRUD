@@ -57,11 +57,15 @@ $row_usuario = mysqli_fetch_assoc($resultado_usuario);
       <p><label class="control-label col-sm-2" for="tel2">Tel2:</label>
         <input type="tel" class="form-control" id="tel2" name="cliente_tel2" required maxlength="8" pattern="[0-9]+$" placeholder="0000-0000" /></p>
       <p><label class="control-label col-sm-2" for="nasc">Nascimento:</label>
-        <input type="date" class="form-control" id="nasc" name="cliente_nasc" required maxlength="10" pattern="[0-9]{2}\/[0-9]{2}\/[0-9]{4}$" placeholder="00/00/0000" /></p>
+        <input type="date" class="form-control" id="nasc" name="cliente_nasc" required maxlength="10" pattern="[0-9]{2}\/[0-9]{2}\/[0-9]{4}$" placeholder="00/00/0000" /></p><br>
 
 
-      <button type="submit" class="btn btn-success send-btn">Enviar</button>
-      <p><a href="Lista.php" target="_self">Exibir lista de Clientes</a></p>
+      <button type="submit" class="btn btn-success send-btn">
+      <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+      </button>
+
+      <a type="reset" href="Lista.php" target="_self" class="btn btn-danger">
+        <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> </a>
     </form>
   </div>
   <script src="validacao.js"></script>
