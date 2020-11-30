@@ -77,8 +77,13 @@ $row_cadastro = mysqli_fetch_assoc($resultado_cadastro);
       <p><label>Tipo de Endereço:</label><br>
         <input type="radio" id="princ" name="princ" value="1">Principal
         <input type="radio" id="princ" name="princ" value="0">Secundario</p>
-      <button type="submit" class="btn btn-success send-btn">Salvar</button>
-      <p><a href="visualizar.php?id=<?php echo $row_cadastro['id']; ?>" target="_self">Exibir lista de Endereços do Cliente</a></p>
+
+      <button type="submit" class="btn btn-success send-btn">
+        <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+      </button>
+
+      <a type="reset" href="visualizar.php?id=<?php echo $row_cadastro['id']; ?>" target="_self" class="btn btn-danger">
+        <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> </a>
     </form>
     <div>
       <script src="validacao.js"></script>

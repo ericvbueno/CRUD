@@ -59,9 +59,8 @@ $row_usuario = mysqli_fetch_assoc($resultado_usuario);
       <p><label class="control-label col-sm-2" for="nasc">Nascimento:</label>
         <input type="date" class="form-control" id="nasc" name="cliente_nasc" required maxlength="10" pattern="[0-9]{2}\/[0-9]{2}\/[0-9]{4}$" placeholder="00/00/0000" /></p><br>
 
-
       <button type="submit" class="btn btn-success send-btn">
-      <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
       </button>
 
       <a type="reset" href="Lista.php" target="_self" class="btn btn-danger">
