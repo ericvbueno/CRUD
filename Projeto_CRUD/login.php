@@ -9,7 +9,6 @@
 </head>
 
 <body>
-
   <div class="card">
     <div class="kabum">
       <img class="imglogin" src="img/kabum.png" alt="logo da kabum">
@@ -34,7 +33,6 @@
       </div>
     </form>
   </div>
-
 </body>
 
 </html>
