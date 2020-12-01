@@ -12,8 +12,9 @@ session_start();
 </head>
 
 <body>
-  <div class="card">
-    <div class="tamanho">
+  <div class="tamanho">
+    <div class="card">
+
       <form class="form-horizontal" id="cad_login_form" method="POST" action="proced_cad_login.php" onsubmit="alert('Usuario cadastrado com sucesso !')">
         <h2 class="titulo">Cadastrar Login:</h2>
 
@@ -26,8 +27,8 @@ session_start();
         <p> <label class="control-label col-sm-2" for="cad_login">Senha:</label>
           <input type="password" class="form-control" id="senha" name="senha" required placeholder="Digite sua Senha"></p><br>
 
-        <button type="submit" class="btn btn-info send-btn">Registrar</button>
-        <a type="submit" href="login.php" target="_self" class="btn btn-info send-btn">Voltar</a>
+        <button type="submit" class="btn btn-primary btn-block">Registrar</button><br>
+        <a type="submit" href="login.php" target="_self" class="btn btn-info btn-block">Voltar</a>
       </form>
     </div>
   </div>
