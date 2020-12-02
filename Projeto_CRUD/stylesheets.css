@@ -3,7 +3,6 @@ form {
     width: 350px;
     text-align: right;
     line-height: 2;
-    padding-top: 30px;
     background-color: white;
 }
 
@@ -57,6 +56,8 @@ body {
     padding: 40px;
     border-radius: 5px;
     box-shadow: 1px 1px 5px #ccc;
+    width: 480px;
+    margin: auto;
 }
 
 .fundo {
@@ -75,11 +76,24 @@ h1 {
 }
 
 .login {
-    width: 440px;
+    background-color: white;
+    text-align: right;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #ccc;
+    width: 280px;
     margin: auto;
 }
 
-.tamanho {
-    width: 480px;
-    margin: auto;
+.formulario {
+    width: 100%;
+}
+/* altera apenas os form que estão dentro da class container*/
+.container form{
+    padding-top: 30px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+.login .form-horizontal{
+    padding-left: 35px;
 }

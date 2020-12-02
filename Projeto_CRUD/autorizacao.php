@@ -21,7 +21,7 @@ $row_usuario = mysqli_fetch_assoc($resultado_login);
 
 <body>
   <div class="container">
-    <h2 class="titulo">Alteração de autorizações para Usuários</h2>
+    <h2 class="titulo">Alterar permissão de Usuário</h2>
 
     <form method="POST" action="proced_permissao.php" onsubmit="alert('Alteração Salva !')">
       <input type="hidden" name="id" value="<?php echo $row_usuario['id']; ?>">

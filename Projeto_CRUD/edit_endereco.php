@@ -84,7 +84,9 @@ $row_endereco = mysqli_fetch_assoc($resultado_endereco);
       <p><label>Tipo de Endereço:</label><br>
         <input type="radio" id="princ" name="princ" value="1" <?php echo $row_endereco['principal'] == 1 ? 'checked' : '' ?>>Principal
         <input type="radio" id="princ" name="princ" value="0" <?php echo $row_endereco['principal'] != 1 ? 'checked' : '' ?>>Secundario</p>
-      <button type="submit" class="btn btn-success send-btn">Salvar</button>
+      <button type="submit" class="btn btn-success send-btn">
+        <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+      </button>
     </form>
   </div>
   <script src="validacao.js"></script>

@@ -12,7 +12,6 @@ session_start();
 </head>
 
 <body>
-  <div class="tamanho">
     <div class="card">
 
       <form class="form-horizontal" id="cad_login_form" method="POST" action="proced_cad_login.php" onsubmit="alert('Usuario cadastrado com sucesso !')">
@@ -31,7 +30,6 @@ session_start();
         <a type="submit" href="login.php" target="_self" class="btn btn-info btn-block">Voltar</a>
       </form>
     </div>
-  </div>
 </body>
 
 </html>

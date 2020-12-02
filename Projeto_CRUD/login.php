@@ -10,12 +10,11 @@
 
 <body>
   <div class="login">
-    <div class="card">
       <div class="kabum">
         <img class="imglogin" src="img/kabum.png" alt="logo da kabum">
       </div>
       <h2 class="titulo">Login</h2>
-      <form class="form-horizontal" method="POST" action="validacao.php">
+      <form class="form-horizontal formulario" method="POST" action="validacao.php">
         <label class="control-label col-sm-2">Login:</label>
         <div class="form-group">
           <div class="col-sm-10">
@@ -28,10 +27,9 @@
             <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd"><br>
           </div>
         </div>
-        <button type="submit" class="btn btn-primary send-btn">Entrar</button>
-        <a type="submit" href="cad_login.php" target="_self" class="btn btn-info send-btn">Registre-se</a>
+          <button type="submit" class="btn btn-primary send-btn">Entrar</button>
+          <a type="submit" href="cad_login.php" target="_self" class="btn btn-info send-btn">Registre-se</a>
       </form>
-    </div>
   </div>
 </body>
 
