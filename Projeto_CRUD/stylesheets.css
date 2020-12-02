@@ -53,10 +53,8 @@ body {
 .card {
     background-color: white;
     text-align: right;
-    padding: 40px;
-    border-radius: 5px;
+    border-radius: 20px;
     box-shadow: 1px 1px 5px #ccc;
-    width: 480px;
     margin: auto;
 }
 
@@ -76,13 +74,12 @@ h1 {
 }
 
 .login {
-    background-color: white;
-    text-align: right;
     padding: 30px;
-    border-radius: 5px;
-    box-shadow: 1px 1px 5px #ccc;
     width: 280px;
-    margin: auto;
+}
+.registro{
+    padding: 40px;
+    width: 480px;
 }
 
 .formulario {
@@ -95,5 +92,11 @@ h1 {
     padding-bottom: 25px;
 }
 .login .form-horizontal{
-    padding-left: 35px;
+    padding-left: 15px;
+}
+.botao{
+    text-align: center;
+}
+.login input{
+    width: 200px;
 }

@@ -9,7 +9,7 @@
 </head>
 
 <body>
-  <div class="login">
+  <div class="card login">
       <div class="kabum">
         <img class="imglogin" src="img/kabum.png" alt="logo da kabum">
       </div>
@@ -27,9 +27,11 @@
             <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd"><br>
           </div>
         </div>
-          <button type="submit" class="btn btn-primary send-btn">Entrar</button>
-          <a type="submit" href="cad_login.php" target="_self" class="btn btn-info send-btn">Registre-se</a>
-      </form>
+        <div class="botao">
+       <p><a href="cad_login.php" target="_self">Registre-se</a></p>
+          <button type="submit" class="btn btn-primary btn-block">Entrar</button>
+        </div>
+        </form>
   </div>
 </body>
 
