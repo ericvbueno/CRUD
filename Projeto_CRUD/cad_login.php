@@ -14,7 +14,7 @@ session_start();
 <body>
     <div class="card registro">
 
-      <form class="form-horizontal" id="cad_login_form" method="POST" action="proced/cad_login.php" onsubmit="alert('Usuario cadastrado com sucesso !')">
+      <form class="form-horizontal" id="cad_login_form" method="POST" action="proced/cadastrar_login.php" onsubmit="alert('Usuario cadastrado com sucesso !')">
         <h2 class="titulo">Cadastrar Login:</h2>
 
         <p><label class="control-label col-sm-2" for="cad_nome">Nome:</label>

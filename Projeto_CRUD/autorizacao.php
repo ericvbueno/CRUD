@@ -16,7 +16,7 @@ $row_usuario = mysqli_fetch_assoc($resultado_login);
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="styles/stylesheets.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="JavaScript.js"></script>
+  <script src="Script/JavaScript.js"></script>
 </head>
 
 <body>
