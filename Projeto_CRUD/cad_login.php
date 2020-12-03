@@ -7,7 +7,7 @@ session_start();
 <head>
   <title>Cadastrar Login</title>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="stylesheets.css">
+  <link rel="stylesheet" type="text/css" href="styles/stylesheets.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 </head>
 
