@@ -3,19 +3,6 @@ session_start();
 include_once("conexao.php");
 include_once("testar_vazio.php");
 
-// A sessão precisa ser iniciada em cada página diferente
-if (!isset($_SESSION)) session_start();
-
-// Verifica se não há a variável da sessão que identifica o usuário
-if (!isset($_SESSION['UsuarioID']) or ($_SESSION['UsuarioNivel'] == "")) {
-
-  session_destroy(); // Destrói a sessão limpando todos os valores salvos
-
-  // Redireciona o usuario para sua lista de clientes
-  header("Location: login.php");
-  exit();
-}
-
 $id = filter_input(INPUT_GET, 'id', FILTER_SANITIZE_NUMBER_INT);
 $result_usuario = "SELECT * FROM usuario WHERE id = '$id'";
 $resultado_usuario = mysqli_query($conn, $result_usuario);
