@@ -21,7 +21,7 @@ $id = $_SESSION['UsuarioID'];
 
 <body>
   <div class="fundo">
-    <a type="submit" href="logout.php" target="_self" class='btn btn-primary'>Logout</a>
+    <a type="submit" href="proced/logout.php" target="_self" class='btn btn-primary'>Logout</a>
     <h1>Lista de Clientes</h1>
 
     <p>

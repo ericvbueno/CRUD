@@ -37,7 +37,7 @@ $cadastros = mysqli_fetch_all($resultado_cadastro, MYSQLI_ASSOC);
   </head>
   <body>
   <div class="fundo">
-  <a type="submit" href="logout.php" target="_self" class='btn btn-primary'>Logout</a>
+  <a type="submit" href="proced/logout.php" target="_self" class='btn btn-primary'>Logout</a>
 
     <h1>Lista de Clientes: <?php echo $cadastros[0]['usuario_nome'];?></h1>
     
