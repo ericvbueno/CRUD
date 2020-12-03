@@ -92,10 +92,11 @@ h1 {
     padding-bottom: 25px;
 }
 .login .form-horizontal{
-    padding-left: 15px;
+    padding-left: 10px;
 }
 .botao{
     text-align: center;
+    padding-right: 10px;
 }
 .login input{
     width: 200px;
