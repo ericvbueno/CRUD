@@ -1,6 +1,6 @@
 <?php
 session_start();
-include_once("conexao.php");
+include_once("../conexao.php");
 
 $id =  mysqli_real_escape_string($conn, $_POST['id']);
 $nome =  mysqli_real_escape_string($conn, $_POST['cliente_nome']);

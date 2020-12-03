@@ -1,6 +1,6 @@
 <?php
 session_start();
-include_once("conexao.php");
+include_once("../conexao.php");
 
 $id = filter_input(INPUT_POST, 'id', FILTER_SANITIZE_NUMBER_INT);
 $cep = filter_input(INPUT_POST, 'cliente_cep', FILTER_SANITIZE_STRING);

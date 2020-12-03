@@ -1,6 +1,6 @@
 <?php
 session_start();
-include_once("conexao.php");
+include_once("../conexao.php");
 
 
 $cep = filter_input(INPUT_POST, 'cliente_cep', FILTER_SANITIZE_STRING);

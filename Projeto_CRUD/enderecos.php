@@ -26,7 +26,7 @@ $row_cadastro = mysqli_fetch_assoc($resultado_cadastro);
 
     <h2 class="titulo">Cadastro de Endereços</h2>
 
-    <form name="endereco" id="enderecoform" method="POST" action="proced_endereco.php">
+    <form name="endereco" id="enderecoform" method="POST" action="proced/cad_endereco.php">
       <input type="hidden" name="cliente_id" value="<?php echo $row_cadastro['id']; ?>">
 
       <p><label class="control-label col-sm-2" for="nome">Nome:</label>

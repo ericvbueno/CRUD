@@ -24,7 +24,7 @@ $row_cadastro = mysqli_fetch_assoc($resultado_cadastro);
   <div class="container">
     <h2 class="titulo">Editar Cadastro</h2>
 
-    <form name="edicao" id="edicaoform" method="POST" action="procedimento_edicao.php" onsubmit="alert('Usuario Salvo !')">
+    <form name="edicao" id="edicaoform" method="POST" action="proced/edicao_cadastro.php" onsubmit="alert('Usuario Salvo !')">
       <input type="hidden" name="id" value="<?php echo $row_cadastro['id']; ?>">
 
       <p><label class="control-label col-sm-2" for="nome">Nome:</label>

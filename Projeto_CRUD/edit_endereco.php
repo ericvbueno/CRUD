@@ -32,7 +32,7 @@ $row_endereco = mysqli_fetch_assoc($resultado_endereco);
 
     <h2 class="titulo">Editar Endereços</h2>
 
-    <form name="edit_endereco" id="edit_enderecoform" method="POST" action="proced_editar_endereco.php">
+    <form name="edit_endereco" id="edit_enderecoform" method="POST" action="proced/editar_endereco.php">
       <input type="hidden" name="id" value="<?php echo $row_endereco['id']; ?>">
       <input type="hidden" name="cliente_id" value="<?php echo $row_endereco['cliente_id']; ?>">
 

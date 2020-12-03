@@ -26,7 +26,7 @@ $row_usuario = mysqli_fetch_assoc($resultado_usuario);
 
     <h2 class="titulo">Cadastro de Clientes</h2>
 
-    <form class="teste" name="formulario" id="cadastroform" method="POST" action="procedimento_cadastro.php">
+    <form class="teste" name="formulario" id="cadastroform" method="POST" action="proced/cadastro.php">
       <input type="hidden" name="usuario" value="<?php echo $row_usuario['id']; ?>">
 
       <p><label class="control-label col-sm-2" for="nome">Nome:</label>

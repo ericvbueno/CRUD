@@ -39,7 +39,7 @@ function funcao1(acao,id = 0){
           if(botao == 'excluir_endereco'){
             switch(confirm("Deseja realmente excluir o endereço?")){
             case true:
-              window.location.href=`excluir_endereco.php?id=${id_cadastro}&clientId=${clientId}`;
+              window.location.href=`proced/excluir_endereco.php?id=${id_cadastro}&clientId=${clientId}`;
               break;
               case false:
                 break;
@@ -48,7 +48,7 @@ function funcao1(acao,id = 0){
           if(botao == 'excluir_cadastro'){
             switch(confirm("Deseja realmente excluir o cadastro do cliente?")){
             case true:
-              window.location.href=`excluir_cadastro.php?id=${id_cadastro}&clientId=${clientId}`;
+              window.location.href=`proced/excluir_cadastro.php?id=${id_cadastro}&clientId=${clientId}`;
               break;
               case false:
                 break;

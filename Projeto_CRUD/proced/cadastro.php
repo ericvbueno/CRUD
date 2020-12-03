@@ -1,6 +1,9 @@
 <?php
 session_start();
-include_once("conexao.php");
+include_once("../conexao.php");
+
+   // .. VOLTA uma pasta
+   // . Seleciona o diretório atual
 
    /* $nome =  mysqli_real_escape_string($conn, $_POST['cliente_nome']);
     $cpf = mysqli_real_escape_string($conn, $_POST['cliente_cpf']);
@@ -63,14 +66,13 @@ include_once("conexao.php");
 
     $resultado_cadastro = mysqli_query($conn, $result_cadastro);
 
-   echo "$result_cadastro<br>";
+
     echo mysqli_error($conn);
 
-    header('Location: /Projeto_CRUD/Lista.php');
+   header('Location: /Projeto_CRUD/Lista.php');
 
-   /* echo json_encode($result_cadastro);*/
    ?>
    <!DOCTYPE html>
-   <p><a href="Lista.php" target="_self">Exibir lista de Clientes</a></p>
+   <p><a href="Projeto_CRUD/Lista.php" target="_self">Exibir lista de Clientes</a></p>
    </html>
 
