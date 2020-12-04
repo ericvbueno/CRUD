@@ -1,7 +1,7 @@
 <?php
 session_start();
 include_once("conexao.php");
-include_once("testar_nivel.php");
+include_once("nivel/testar_nivel.php");
 
 ?>
 <!DOCTYPE html>

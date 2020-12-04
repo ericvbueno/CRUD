@@ -1,7 +1,7 @@
 <?php
 session_start();
 include_once("conexao.php");
-include_once("testar_vazio.php");
+include_once("nivel/testar_vazio.php");
 
 $id = filter_input(INPUT_GET, 'id', FILTER_SANITIZE_NUMBER_INT);
 $result_cadastro = "SELECT * FROM cadastro WHERE id = '$id'";

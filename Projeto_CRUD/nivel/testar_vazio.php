@@ -8,7 +8,7 @@ if (!isset($_SESSION['UsuarioID']) or ($_SESSION['UsuarioNivel'] == "")) {
   session_destroy(); // Destrói a sessão limpando todos os valores salvos
 
   // Redireciona o usuario para a tela de login
-  header("Location: login.php");
+  header("Location: /Projeto_CRUD/login.php");
   exit();
 }
 ?>

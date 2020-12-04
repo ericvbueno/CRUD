@@ -1,7 +1,7 @@
 <?php
 session_start();
 include_once("conexao.php");
-include_once("testar_vazio.php");
+include_once("nivel/testar_vazio.php");
 
 $userID = $_SESSION['UsuarioID'];
 
