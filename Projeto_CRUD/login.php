@@ -14,7 +14,7 @@
         <img class="imglogin" src="img/kabum.png" alt="logo da kabum">
       </div>
       <h2 class="titulo">Login</h2>
-      <form class="form-horizontal formulario" method="POST" action="validacao.php">
+      <form class="form-horizontal formulario" method="POST" action="proced/validacao.php">
         <label class="control-label col-sm-2">Login:</label>
         <div class="form-group">
           <div class="col-sm-10">
