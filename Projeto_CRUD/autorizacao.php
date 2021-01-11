@@ -2,6 +2,7 @@
 session_start();
 include_once("conexao.php");
 include_once("nivel/testar_nivel.php");
+include_once("img/icons.html");
 
 $id = filter_input(INPUT_GET, 'id', FILTER_SANITIZE_NUMBER_INT);
 $result_login = "SELECT * FROM usuario WHERE id = '$id'";

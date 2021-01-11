@@ -2,6 +2,7 @@
 session_start();
 include_once("conexao.php");
 include_once("nivel/testar_vazio.php");
+include_once("img/icons.html");
 
 $userID = $_SESSION['UsuarioID'];
 

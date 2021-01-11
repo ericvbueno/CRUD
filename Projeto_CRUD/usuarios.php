@@ -2,6 +2,7 @@
 session_start();
 include_once("conexao.php");
 include_once("nivel/testar_nivel.php");
+include_once("img/icons.html");
 
 ?>
 <!DOCTYPE html>

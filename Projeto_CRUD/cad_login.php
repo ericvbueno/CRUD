@@ -1,5 +1,6 @@
 <?php
 session_start();
+include_once("img/icons.html");
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
