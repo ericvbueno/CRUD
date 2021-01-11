@@ -101,3 +101,21 @@ h1 {
 .login input{
     width: 200px;
 }
+#divBusca{
+    display: flex;
+    width: auto;
+}
+#btnBusca{
+    margin-left: 10px;
+    width: 40px;
+}
+#divBusca label{
+    margin-right: 10px;
+}
+#txtBusca{
+    width: 200px;
+    margin-right: 10px;
+}
+#campo{
+    height: 34px;
+}

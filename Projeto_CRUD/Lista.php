@@ -29,7 +29,7 @@ $id = $_SESSION['UsuarioID'];
 
 
         <label>Buscar:</label>
-        <input type="text" id="txtBusca" name="busca" />
+        <input type="text" id="txtBusca" name="busca" class="form-control" />
 
         <p><label>Por:</label>
           <select name="campo" id="campo">
@@ -48,7 +48,7 @@ $id = $_SESSION['UsuarioID'];
           </select>
         </p>
 
-        <button id="btnBusca" class="btn btn-primary">
+        <button id="btnBusca" class="btn btn-primary form-control">
           <span class='glyphicon glyphicon-search' aria-hidden='true'></span>
         </button>
       </form>

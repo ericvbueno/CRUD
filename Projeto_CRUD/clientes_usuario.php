@@ -45,7 +45,7 @@ $cadastros = mysqli_fetch_all($resultado_cadastro, MYSQLI_ASSOC);
    
 
    <label>Buscar:</label>
-   <input type="text" id="txtBusca" name="busca"/>
+   <input type="text" id="txtBusca" name="busca" class="form-control"/>
 
    <p><label>Por:</label>
    <select name="campo" id="campo">
@@ -63,7 +63,7 @@ $cadastros = mysqli_fetch_all($resultado_cadastro, MYSQLI_ASSOC);
 </select>
    </p>
 
- <button id="btnBusca" class="btn btn-primary" >
+ <button id="btnBusca" class="btn btn-primary form-control" >
  <span class='glyphicon glyphicon-search' aria-hidden='true'></span>
  </button>
 </form>
