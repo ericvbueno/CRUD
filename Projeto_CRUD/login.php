@@ -1,12 +1,10 @@
-<?php include_once("img/icons.html")?>
+<?php include_once("Link/links.html")?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
   <title>Controle de Acesso</title>
   <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="styles/stylesheets.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 </head>
 
 <body>

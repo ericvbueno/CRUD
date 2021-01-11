@@ -2,7 +2,7 @@
 session_start();
 include_once("conexao.php");
 include_once("nivel/testar_nivel.php");
-include_once("img/icons.html");
+include_once("Link/links.html");
 
 $id = filter_input(INPUT_GET, 'id', FILTER_SANITIZE_NUMBER_INT);
 $result_login = "SELECT * FROM usuario WHERE id = '$id'";
@@ -15,8 +15,6 @@ $row_usuario = mysqli_fetch_assoc($resultado_login);
 <head>
   <title>Autorizacões de Usuários</title>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="styles/stylesheets.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="Script/JavaScript.js"></script>
 </head>
 

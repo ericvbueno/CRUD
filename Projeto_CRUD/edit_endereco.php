@@ -2,7 +2,7 @@
 session_start();
 include_once("conexao.php");
 include_once("nivel/testar_vazio.php");
-include_once("img/icons.html");
+include_once("Link/links.html");
 
 $id = filter_input(INPUT_GET, 'id', FILTER_SANITIZE_NUMBER_INT);
 $result_endereco = "SELECT enderecos.*, cadastro.nome, cadastro.id as cliente_id
@@ -21,8 +21,6 @@ $row_endereco = mysqli_fetch_assoc($resultado_endereco);
 <head>
   <title>Cadastro de Endereços</title>
   <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="styles/stylesheets.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script defer src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
   <!--<script src="http://jqueryvalidation.org/files/dist/jquery.validate.js"></script>-->
   <script defer src="Script/JavaScript.js"></script>

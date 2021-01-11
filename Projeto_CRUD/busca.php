@@ -2,7 +2,7 @@
 session_start();
 include_once("conexao.php");
 include_once("nivel/testar_vazio.php");
-include_once("img/icons.html");
+include_once("Link/links.html");
 
 $busca = strtolower($_POST['busca']);
 $userID = $_SESSION['UsuarioID'];
@@ -34,8 +34,6 @@ $nivel_necessario = 1;
 <head>
   <title>Busca de clientes</title>
   <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="styles/stylesheets.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script defer src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
   <script src="Script/JavaScript.js"></script>
 </head>
