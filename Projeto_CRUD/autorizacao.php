@@ -15,7 +15,6 @@ $row_usuario = mysqli_fetch_assoc($resultado_login);
 <head>
   <title>Autorizacões de Usuários</title>
   <meta charset="UTF-8">
-  <script src="Script/JavaScript.js"></script>
 </head>
 
 <body>
