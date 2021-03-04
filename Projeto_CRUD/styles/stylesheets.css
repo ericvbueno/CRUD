@@ -81,13 +81,11 @@ body {
     margin-left: 10px;
     width: 40px;
 }
-#divBusca label{
-    margin-right: 10px;
-}
+
 #txtBusca{
     width: 200px;
-    margin-right: 10px;
 }
+
 #campo{
     height: 34px;
 }
@@ -103,4 +101,8 @@ form, .container, .col-sm-10, .card{
 .container, .card, .fundo{
     background-color: white;
     box-shadow: 1px 1px 5px #ccc;
+}
+
+#divBusca label, #txtBusca{
+    margin-right: 10px;
 }
