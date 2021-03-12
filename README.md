@@ -1,6 +1,6 @@
 <h1 align="center">CRUD<h1>
 
-<h2>O que é um CRUD ?<h2>
+<h2>O que é um CRUD ?</h2>
 
 " CRUD (acrónimo do inglês Create, Read, Update and Delete) são as quatro operações básicas (criação, consulta, atualização e destruição de dados) utilizadas em bases de dados relacionais ."
 
@@ -8,7 +8,7 @@
 
 O Projeto_CRUD é um sistema de cadastro de clientes e endereços com niveis de acesso para os usuarios.
 
-<h2>Tecnologias:<h2> 
+<h2>Tecnologias:</h2> 
 
 <ul>
 <li>JavaScript</li>
