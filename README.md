@@ -8,7 +8,9 @@
 
 O Projeto_CRUD é um sistema de cadastro de clientes e endereços com niveis de acesso para os usuarios.
 
-<h2>Tecnologias:</h2> 
+<h2>Tecnologias:</h2>
+
+Este projeto foi desenvolvido com as seguintes tecnologias:
 
 <ul>
 <li>JavaScript</li>
