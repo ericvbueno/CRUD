@@ -14,7 +14,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
 <ul>
 <li>JavaScript</li>
-<li>Php</li>
+<li>PHP</li>
 <li>Bootstrap</li>
 <li>Banco de dados sql</li>
 </ul>
